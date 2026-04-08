@@ -1,0 +1,25 @@
+body{
+    color: rgb(194, 193, 193);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.profile1{
+    border: none ;
+    border-radius: 50px;
+    background-color: #0F172A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profic{
+    padding-left: 10px;
+    object-fit: cover;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+#button{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: darkslategray;
+    border: 2px solid ;
+}

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://kit.fontawesome.com/831d7068d7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style2.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +10,7 @@
 </head>
 <body>
     <header>
-        <h1 id="h1">Payroll Management</h1>
+        <h1 id="Title">Payroll Management</h1>
     </header>
 
     <nav id="navbar1">
@@ -26,8 +27,8 @@
                 <ul>
                     <li class="list"><a href="index.html">Home</a></li>
                     <li class="list"><a href="#" id="active">Employees</a></li>
-                    <li class="list"><a href="#">Payroll</a></li>
-                    <li class="list"><a href="#">Reports</a></li>
+                   <!-- <li class="list"><a href="#">Payroll</a></li>
+                    <li class="list"><a href="#">Reports</a></li> -->
                 </ul>
             </nav>
    
@@ -40,58 +41,43 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui deserunt, atque nobis officia obcaecati nisi mollitia dolorem fugit voluptates cum quibusdam beatae, alias quaerat accusamus hic magni repudiandae dolore ipsum?</p>
             <h2>Employees:</h2>
 
-        <div id="table-contents">    
-            <table>
-                <tr>
-                    <th>Name</th>
-                    <th>Position</th>
-                    <th>Role</th>
-                </tr>
-                <tr>
-                    <td>Alice Brown</td>
-                    <td>Frontend Developer</td>
-                    <td>Senior</td>
-                </tr>
-                <tr>
-                    <td>Bob Wilson</td>
-                    <td>Backend Developer</td>
-                    <td>Junior</td>
-                </tr>
-                <tr>
-                    <td>Charlie Davis</td>
-                    <td>Frontend Developer</td>
-                    <td>Junior</td>
-                </tr>
-                <tr>
-                    <td>Diana Evans</td>
-                    <td>Backend Developer</td>
-                    <td>Senior</td>
-                </tr>
-                <tr>
-                    <td>Frank Garcia</td>
-                    <td>Frontend Developer</td>
-                    <td>Senior</td>
-                </tr>
-                <tr>
-                    <td>Grace Harris</td>
-                    <td>Backend Developer</td>
-                    <td>Junior</td>
-                </tr>
-                <tr>
-                    <td>Henry Jackson</td>
-                    <td>Frontend Developer</td>
-                    <td>Junior</td>
-                </tr>
-                <tr>
-                    <td>Irene King</td>
-                    <td>Backend Developer</td>
-                    <td>Senior</td>
-                </tr>
-            </table>
+        <div class="profile1"> 
+<!--start--> 
+    <div class="surname">
+        <h1 id="surname">${ep.surname}</h1>
+        <span class="label">Surname</span>
+    </div>
+
+    <div class="firstName">
+        <h1 id="firstName">${ep.name}</h1>
+        <span class="label">Firstname</span>
+    </div>
+
+    <div class="middleName">
+        <h1 id="middleName">${ep.middlename}</h1>
+        <span class="label">Middle Name</span>
+    </div>
+<!--end-->
+
+    <div class="role">
+
+        <div class="role">
+            <h1 id="role">${ep.role}</h1>
+            <span class="label">Role</span>
         </div>
 
-        
-        <nav id="navbar2">
+    </div> <!--role end-->
+
+    <div class="position">
+        <h1 id="position">${ep.position}</h1>
+        <span class="label">Position</span>
+    </div>
+    <div class="btn"><button id="button" type="button"><i class="fa-solid fa-angle-right"></i></button> </div>
+
+
+</div> <!--profile1 end-->
+
+        <!-- <nav id="navbar2">
             <a href="page5.html"><</a>
             <a href="#" id="Here">1</a>
             <a href="page2.html">2</a>
@@ -100,7 +86,8 @@
             <a href="page5.html">5</a>
             <a href="page2.html">></a>
 
-        </nav>
+        </nav> -->
+        
         
         
         
@@ -113,6 +100,7 @@
         
 
     </main>
+
     
 
 
